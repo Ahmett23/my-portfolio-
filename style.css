@@ -1,3 +1,7 @@
+/* Kala wareeji box-yada class 'one' */
+.one {
+  margin-bottom: 22px;
+}
 :root{
   --bg-dark: #030305;        /* really dark edges */
   --center-a: #1e3a8a;      /* deep blue */
