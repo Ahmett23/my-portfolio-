@@ -44,8 +44,14 @@ html,body{height:100%;margin:0;font-family: Inter, system-ui, Arial, sans-serif;
 
 /* content layout */
 .content{
-  max-width:760px;
+  /* max-width:760px; */
   z-index:2;
+  text-align: center;
+  padding-left: 400px;
+}
+.US{
+  /* max-width: 00PX; */
+  /* padding: 0%; */
 }
 
 /* avatar */
@@ -347,6 +353,7 @@ h1{
   padding: 60px 10%;
   background: radial-gradient(circle at center, #5b21b6 0%, #1f1f1f 100%);
   color: white;
+ 
 }
 
 .contact-content {
@@ -501,6 +508,10 @@ h1{
   h1{font-size:2rem}
   .avatar{width:86px;height:86px}
   .hero{padding:6vh 6vw}
+  .content{
+    padding-left: 0;
+    text-align: center;
+  }
 
 .footer {
     flex-direction: column;
